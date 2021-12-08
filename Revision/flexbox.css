@@ -1,0 +1,29 @@
+.card{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+img{
+    height: 180px;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.description{
+    text-align: center;
+    color: grey;
+}
+.price{
+    color: green;
+    font-size: 20px;
+    float: right;
+    padding: 10px;
+}
+.info{
+    padding: 10px;
+    float: left;
+}

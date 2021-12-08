@@ -1,0 +1,83 @@
+.card{
+    height: 400px;
+    width: 200px;
+    box-shadow: 5px 5px rgb(235, 130, 182);
+    border: 1px solid pink;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.title{
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+font-size: 20px;
+color:  rgb(97, 94, 94);
+padding: 10px 10px 0;
+}
+.subtitle{
+    font-size: 12px;
+    text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(150, 147, 147);
+padding: 3px 10px;
+margin: 0; 
+}
+.price{
+    color: rgb(9, 70, 110);
+    font-weight: 700;
+    padding: 0; 
+    float: left;
+    width: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.stock{
+    color:green;
+    float: right;
+    padding-top: 10px;
+    width: 100px;
+}
+.original{
+ color: rgb(150, 147, 147);
+ font-size: 10px;
+ text-decoration: line-through;  
+ padding-left: 10px;
+}
+.stars-image{
+    height: 10px;
+    width: 10px;
+}
+.stars{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.size{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.small,.large,.medium{
+    height: 15px;
+    width: 15px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin: 1px;
+    text-align: center;
+    padding: 1px;
+}
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    background: #dc5ae8;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+.btn:hover{
+    cursor: pointer;
+}

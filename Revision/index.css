@@ -1,0 +1,15 @@
+.outer-div{
+    height: 500px;
+    width: 500px;
+    background-color: gold;
+    position: relative;
+}
+.inner-div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: sticky;
+    top: 10px;
+    left: 10px;
+    
+}
